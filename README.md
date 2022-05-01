@@ -121,7 +121,7 @@ Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more informati
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[csivitu-shield]: https://img.shields.io/badge/csivitu-csivitu-blue
+[csivitu-shield]: https://img.shields.io/badge/peer--review-peer--review-brightgreen
 [csivitu-url]: https://csivit.com
 [issues-shield]: https://img.shields.io/github/issues/ashikka/peer-review.svg?style=flat-square
 [issues-url]: https://github.com/ashikka/peer-review/issues
