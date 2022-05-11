@@ -31,14 +31,16 @@ export default function SignUpLoginInScreen() {
             <Box zIndex={-1} width="35vw" height="35vw" position="absolute" right="-10%" borderRadius="50%" bgColor='#f0effd'></Box>
             <Box zIndex={-1} width="35vw" height="35vw" position="absolute" right="-20%" top="-20%" borderRadius="50%" bgColor='#f0effd'></Box>
             <Flex justifyContent="space-evenly" flexDirection="row" alignItems="center" height="80vh">
-                <Flex flexDirection="column">
+                <Flex flexDirection="column" width="50vw">
                     <Flex flexDirection="row" alignItems="center">
-                        <img src={logo} alt="logo" width={130} />
+                        {/* <img src={logo} alt="logo" width={130} /> */}
                         <Heading as='h1' size='3xl' marginLeft="2rem">Peer Review</Heading>
                     </Flex>
                     <Text color='gray.600' mt={6} width={400} textAlign="center">Lorem ipsum dolor sit amet. Eos provident mollitia qui molestias ipsa et quaerat autem.</Text>
                 </Flex>
+                <Flex width="50vw">
                 <img src={entryGif} alt="entry" />
+                </Flex>
                 {/* <Flex bgColor="#F8F8FB" px={30} py="4rem" mt="4rem" border="2px solid" borderColor="gray.300">
                 <Flex flexDirection="column" mx={10}>
                     <Button bg='#6459F5' color="#ffffff" variant='solid' width={350} onClick={() => user.signInOrRegister()}>
