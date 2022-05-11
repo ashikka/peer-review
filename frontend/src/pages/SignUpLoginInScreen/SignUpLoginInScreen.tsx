@@ -30,7 +30,7 @@ export default function SignUpLoginInScreen() {
             <Box zIndex={-1} width="35vw" height="35vw" position="absolute" right="10%" top="-20%" borderRadius="50%" bgColor='#f0effd'></Box>
             <Box zIndex={-1} width="35vw" height="35vw" position="absolute" right="-10%" borderRadius="50%" bgColor='#f0effd'></Box>
             <Box zIndex={-1} width="35vw" height="35vw" position="absolute" right="-20%" top="-20%" borderRadius="50%" bgColor='#f0effd'></Box>
-            <Flex justifyContent="space-evenly" flexDirection="row" alignItems="center" height="80vh">
+            <Flex justifyContent="space-evenly" flexDirection="row" height="80vh">
                 <Flex flexDirection="column" width="50vw">
                     <Flex flexDirection="row" alignItems="center">
                         {/* <img src={logo} alt="logo" width={130} /> */}
